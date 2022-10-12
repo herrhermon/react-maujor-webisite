@@ -1,12 +1,17 @@
 // import React,{Fragment} from 'react';
 import React from 'react'
+import Principal from './components/Principal';
+import Rodape from './components/Rodape';
+import Topo from './components/Topo';
+
 
 function App() {
   return (
     // <Fragment>
     //Tem o mesmo valor de fragment
     <>
-    <header className="topo">
+
+    {/* <header className="topo">
       <h1 className='logo'></h1>
       <ul>
         <li><a href="">Navegação</a></li>
@@ -19,7 +24,15 @@ function App() {
     </main>
     <footer className="rodape">
       <p> Conteudos cedidos pela editora Novatec &#8212; Copyright 2020 </p>
-    </footer>
+    </footer> */}
+
+    {/* Codigo acima até o passo 2 */}
+
+    <Topo />
+    <Principal />
+    <Rodape />
+  
+
     </>
 
     // </Fragment>
