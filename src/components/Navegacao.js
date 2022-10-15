@@ -1,8 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-let linkCorrente = {
-  color:"#027399"
-};
+
 
 function Navegacao() {
   return (
